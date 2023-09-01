@@ -17,6 +17,7 @@ Grandes telas: acima de 1200px
     
     section#login {
         width: 80vw;
+        height: 290px;
     }
 
     section#login >div#imagem {
@@ -34,8 +35,18 @@ Grandes telas: acima de 1200px
         font-size: 1em;
     }
 
-    div.campo {
+    form div.campo {
         font-size: 1em;
+    }
+
+    div.campo > input {
+        font-size: 1em;
+        height: 100%;
+        width: calc(95% - 20px);
+        border-radius: 9px;
+        border: 0px;
+        padding: 4px;
+        transform: translateY(-12px);
     }
 }
 
@@ -47,6 +58,7 @@ Grandes telas: acima de 1200px
     
     section#login {
         width: 950px;
+        height: 330px;
     }
 
     section#login >div#imagem {
@@ -68,9 +80,30 @@ Grandes telas: acima de 1200px
 
     div#formulario > p {
         font-size: 1em;
+        margin: 10px 0px;
     }
 
-    div.campo {
-        font-size: 1em;
+    form div.campo {
+        font-size: 1.1em;
     }
+
+    div.campo > span {
+        color: #EFAA57;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+    }
+
+    div.campo > input {
+        font-size: 1em;
+        height: 100%;
+        width: calc(90% - 1px);
+        border-radius: 9px;
+        border: 0px;
+        padding: 4px;
+        transform: translateY(-14px);
+    }
+
+
 }
+    
